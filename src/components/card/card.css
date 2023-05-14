@@ -1,0 +1,29 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 222px;
+  border-radius: 20px;
+  background: whitesmoke;
+  padding: 1.8rem;
+  margin: 20px 0 20px 0;
+  border: 1px solid black;
+  box-shadow: 5px 5px 5px rgb(75, 75, 75);
+  transition: 0.5s ease-out;
+ overflow: visible;
+
+}
+
+
+p {
+
+  font-weight: 500;
+}
+
+.card img {
+
+  border-radius: 8px;
+  width: 250px;
+  height: 210px;
+}

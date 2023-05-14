@@ -1,0 +1,40 @@
+* {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.container {
+  max-width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 24px;
+  
+
+}
+
+.btn-novo {
+  width: 100px;
+  height: 40px;
+  border-radius: 12px;
+  box-shadow: 2px 2px 3px 3px rgba(0, 0, 0, 0.4);
+  background-color: transparent;
+  border: 1px solid black;
+  color: black;
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 15px;
+
+}
+
+.btn-novo:hover {
+  background-color: rgba(73, 142, 148, 0.4);
+  transition: all 600ms;
+}
